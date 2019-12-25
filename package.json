@@ -1,0 +1,23 @@
+{
+  "name": "knockout-sample",
+  "version": "1.0.0",
+  "description": "simple sample knockout framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm --version",
+    "serve": "node_modules/.bin/serve"
+  },
+  "keywords": [
+    "knockoutjs",
+    "mvvm"
+  ],
+  "author": "abc",
+  "license": "ISC",
+  "dependencies": {
+    "knockout": "^3.5.1"
+  },
+  "devDependencies": {
+    "@types/knockout": "^3.4.66",
+    "serve": "^11.2.0"
+  }
+}
