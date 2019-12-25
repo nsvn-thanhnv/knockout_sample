@@ -9,5 +9,7 @@ var ViewModel = function (first, last) {
     }, this);
 };
 
-ko.applyBindings(new ViewModel("Thanh", "Nguyen")); // This makes Knockout get to work
+var vm = new ViewModel("Thanh", "Nguyen");
+
+ko.applyBindings(vm, document.body); // This makes Knockout get to work
 
